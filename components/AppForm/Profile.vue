@@ -6,6 +6,9 @@
     <div class="shadow sm:overflow-hidden sm:rounded-md">
       <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
         <div class="col-span-6 sm:col-span-3">
+          <h1 class="text-4xl font-bold text-center mt-8 mb-4 text-blue-500">
+    Anubhav Online Portfolio Builder
+  </h1>
           <label for="name" class="block text-sm font-medium text-gray-700"
             >Name</label
           >
