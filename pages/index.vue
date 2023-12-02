@@ -1,17 +1,17 @@
 <template>
   
-  <h1 class="text-4xl font-bold text-center mt-8 mb-4 text-blue-500">
-    Anubhav Online Portfolio Builder
-  </h1>
+ 
 
   <div class="h-screen grid grid-cols-3 divide-x">
     <div class="col-span-2 h-screen flex flex-col bg-slate-100">
       <div class="flex-1 overflow-y-auto p-8">
+     
         <app-form-profile
           v-model:name="data.n"
           v-model:desc="data.d"
           v-model:image="data.i"
         />
+        
         <app-form-hr />
         <app-form-social-links
           v-model:facebook="data.f"
@@ -43,7 +43,7 @@
           <icon name="ph:paper-plane-tilt-bold" class="h-4 w-4" />
         </button>
         <a
-          href="https://github.com/fayazara/onelink"
+          href="https://anubhav-webpage.netlify.app/"
           target="_blank"
           class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700"
         >
@@ -54,11 +54,11 @@
     </div>
     <app-form-preview :data="data" />
     <a
-      href="https://twitter.com/fayazara"
+      href="https://anubhav-webpage.netlify.app/"
       target="_blank"
       class="absolute bottom-0 right-0 bg-white rounded-tl-lg shadow px-4 py-1 font-medium text-sm text-gray-500"
     >
-      Made by Fayaz
+      Made by Anubhav
     </a>
   </div>
 </template>
